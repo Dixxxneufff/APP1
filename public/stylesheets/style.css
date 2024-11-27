@@ -1,8 +1,45 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Fondo claro */
+  color: #343a40; /* Texto oscuro */
 }
 
-a {
-  color: #00B7FF;
+h1 {
+  color: #007bff; /* Tono azul */
+  text-align: center;
 }
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #e9ecef;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Botón estilo */
+a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background-color: #007bff; /* Azul Bootstrap */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a.btn:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+

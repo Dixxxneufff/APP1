@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Message: #{message}
+  
+  if user
+    p Hello, #{user.name}! You are a #{user.role}.
+  
+  ul
+    each item in items
+      li= item
+
+  p Today's date is #{date}.
